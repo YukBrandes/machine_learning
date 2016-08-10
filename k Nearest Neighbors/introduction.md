@@ -16,3 +16,8 @@ kNN方法在类别决策时，只与极少量的相邻样本有关。
 
 # 2 实验数据
 UCI的[乳腺癌特征数据](http://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/wdbc.data)：wdbc.data.csv
+
+---
+
+# 3 模型说明
+kNN输入一般为是标准化的数值矩阵
