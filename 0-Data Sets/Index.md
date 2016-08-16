@@ -1,70 +1,56 @@
 # Data for Machine Learning with R
 
-Chapter 1
----------
+Author：Yuk / 稻粱谋
 
+Date：2016-08-16
+
+---
+## Chapter 1
 No datasets used
 
-Chapter 2
----------
-
+## Chapter 2
 usedcars.csv could not be found online
 
-Chapter 3
----------
+## Chapter 3
+> [wisc_bc_data.csv](https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/)
 
-wisc_bc_data.csv from https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/
+## Chapter 4
+> [sms_spam.csv](http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/)
 
-Chapter 4
----------
+## Chapter 5
+> [credit.csv](https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/)
 
-sms_spam.csv from http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/
+> [mushrooms.csv](https://archive.ics.uci.edu/ml/machine-learning-databases/mushroom/)
 
-Chapter 5
----------
-
-credit.csv from https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/
-
-mushrooms.csv from https://archive.ics.uci.edu/ml/machine-learning-databases/mushroom/
-
-Chapter 6
----------
-challenger.csv from https://archive.ics.uci.edu/ml/machine-learning-databases/space-shuttle/
+## Chapter 6
+> [challenger.csv](https://archive.ics.uci.edu/ml/machine-learning-databases/space-shuttle/)
 
 insurance.csv could not be found online
 
-whitewines.csv from https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/
+> [whitewines.csv](https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/)
 
-Chapter 7
----------
+## Chapter 7
+> [concrete.csv](https://archive.ics.uci.edu/ml/machine-learning-databases/concrete/compressive/)
 
-concrete.csv from https://archive.ics.uci.edu/ml/machine-learning-databases/concrete/compressive/
+> [letterdata.csv](https://archive.ics.uci.edu/ml/machine-learning-databases/letter-recognition/)
 
-letterdata.csv from https://archive.ics.uci.edu/ml/machine-learning-databases/letter-recognition/
+## Chapter 8
+groceries.csv is from [arules](http://cran.r-project.org/web/packages/arules/index.html) package but probably just easier to call 
+```
+library(arules);
+data(Groceries)
+```
 
-Chapter 8
----------
-
-groceries.csv is from [arules](http://cran.r-project.org/web/packages/arules/index.html) package but probably just easier to call `library(arules); data(Groceries)`
-
-Chapter 9
----------
-
+## Chapter 9
 snsdata.csv could not be found online
 
-Chapter 10
-----------
-
+## Chapter 10
 sms_results.csv is likely from the `sms_test_pred` object in Chapter 4 but difficult to be sure.
 
 credit.csv is likely the same file from Chapter 5.
 
-Chapter 11
-----------
+## Chapter 11
+> [credit.csv](https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/)
 
-credit.csv from Chapter 5 is reused.
-
-Chapter 12
-----------
-
+## Chapter 12
 No datasets used
