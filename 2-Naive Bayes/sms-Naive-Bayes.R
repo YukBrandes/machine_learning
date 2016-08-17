@@ -71,4 +71,8 @@ table(test.naiveBayes.predict,test$type)
 library(gmodels)
 CrossTable(test.naiveBayes.predict,test$type,prop.chisq = F,prop.t = F,dnn = c('predicted','actual'))
 
-
+# pmml
+library("devtools")
+install_github(repo = "jpmml/r2pmml")
+library(r2pmml)
+r2pmml(naiveBayesModel,'C:/Users/Yuk/Desktop/naiveBayesModel.pmml')

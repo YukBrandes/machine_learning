@@ -50,7 +50,6 @@ sms_results.csv is likely from the `sms_test_pred` object in Chapter 4 but diffi
 credit.csv is likely the same file from Chapter 5.
 
 ## Chapter 11
-> [credit.csv](https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/)
-
+> [credit.csv](https://archive.ics.uci.edu/ml/machine-learning-databases/statlog/german/) used in character 5.
 ## Chapter 12
 No datasets used
